@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 # Library_Management_System_FASTAPI
-=======
-# LMSFastA - Library Management System API
 A FastAPI Based Library Management System API to manage books, authors, and borrowers with role-based permissions.
 ## Project Overview
 
@@ -23,8 +20,25 @@ This project is a simplified Library Management System API built with Django. Th
   - [Final Checklist](#final-checklist)
 
 ## Directory Structure
-LMSFastA/ ├── app/ │ ├── init.py │ ├── models.py │ ├── schemas.py │ ├── deps.py │ ├── database.py │ └── main.py ├── routes/ │ ├── init.py │ ├── books.py │ ├── authors.py │ ├── users.py │ └── borrow.py ├── tests/ │ ├── init.py │ ├── test_books.py │ ├── test_authors.py │ ├── test_users.py │ └── test_borrow.py ├── README.md └── requirements.txt
 
+| Directory/File          | Description                                                                 |
+|-------------------------|-----------------------------------------------------------------------------|
+| LMSFastA/               | Root directory of the project.                                              |
+| ├── app/                | Contains the core application modules.                                      |
+| │   ├── __init__.py     | Initialization file for the app package.                                    |
+| │   ├── models.py       | Defines the database models.                                                |
+| │   ├── schemas.py      | Defines the Pydantic schemas for data validation.                           |
+| │   ├── deps.py         | Contains dependency functions for FastAPI.                                  |
+| │   ├── database.py     | Manages database connections and sessions.                                  |
+| │   └── main.py         | Entry point of the FastAPI application.                                     |
+| ├── routes/             | Contains route handlers for different endpoints.                            |
+| │   ├── __init__.py     | Initialization file for the routes package.                                 |
+| │   ├── books.py        | Route handlers for book-related endpoints.                                  |
+| │   ├── authors.py      | Route handlers for author-related endpoints.                                |
+| │   ├── users.py        | Route handlers for user-related endpoints.                                  |
+| │   └── borrow.py       | Route handlers for borrowing-related endpoints.                             |      
+| ├── README.md           | Project documentation and setup instructions.                               |
+| └── requirements.txt    | Lists all the dependencies required to run the project.                     |
 
 ## Installation
 
@@ -387,17 +401,15 @@ Write comprehensive unit tests for all critical paths.
     ```
 6. Open a pull request.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 - FastAPI
 - SQLAlchemy
 - Alembic
 - Pydantic
 - vbnet
+  
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-
+---
 This `README.md` file provides a comprehensive and professional overview of the LMSFastA project, including its directory structure, installation instructions, usage, routes, and detailed requirements. It is suitable for GitHub purposes and provides clear instructions and details for setting up and using the project.
-This `README.md` file provides a comprehensive and professional overview of the LMSFastA project, including its directory structure, installation instructions, usage, routes, and detailed requirements. It is suitable for GitHub purposes and provides clear instructions and details for setting up and using the project.
->>>>>>> 1ef819e (LMS FASTAPI done)
